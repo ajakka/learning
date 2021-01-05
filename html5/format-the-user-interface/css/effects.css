@@ -1,0 +1,39 @@
+body {
+    margin: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header, mytag {
+    padding: 24px;
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 500px;
+    text-align: center;
+    
+    /* border-radius: top-left top-right bottom-right bottom-left; */
+    border-radius: 20px 0px 20px 0px;
+    
+    /* you can also use background-color: rgba(255, 180, 0, .5); 
+       to achive the same effects */
+    background-color: gold;
+    opacity: 50%;
+}
+
+footer {
+    /* fixed means the tag footer will be relative to the browser window
+        specifically, the "bottom" of the browser */
+    position: fixed;
+    bottom: 10px;
+    margin-left: 4px;
+}
+
+img {
+    /* position the image to the top left of the browser */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* send the image to the back */
+    z-index: -1;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded CSS</title>
+    
+    <!--you can also put the style tag inside of the body tag-->
+    <style>
+        body {
+            margin: 4px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        h1, h3 {
+            margin: 8px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: crimson;
+            text-align: start;
+        }
+    </style>
+</head>
+<body>
+    <!--this is an example of the order of precedence where the inline 
+        property color overrides the embeded one -->
+    <h1 style="color: blue;">Welcome tamazirt</h1>
+    <h3>Tamazirt is the best place in the world</h3>
+    <video src="./assets/nitori.mp4" width="360" height="240" autoplay controls loop></video>
+
+    <footer>Copyrights 2020</footer>
+</body>
+</html>

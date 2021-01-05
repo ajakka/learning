@@ -1,0 +1,27 @@
+{
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "authors": "Robert C. Martin",
+    "description": "Even bad code can function. But if code isn t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code.",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436202607l/3735293._SX318_.jpg",
+    "releaseDate": "2018-07-01T00:00:00.000+00:00",
+    "price": 37.82,
+    "link": "https://www.amazon.com/gp/product/0132350882/",
+    "isbn": {
+        "type": "ISBN13",
+        "idenetifier": "9780132350884"
+    },
+    "rating": [
+        {
+            "rating": 3,
+            "comment": "Francis Fish",
+            "commenter": "The first half of this book is well worth a read.",
+            "commenterId": "not yet implemented"
+        },
+        {
+            "rating": 4,
+            "comment": "Vladimir",
+            "commenter": "This book makes some very good points.",
+            "commenterId": "not yet implemented"
+        }
+    ]
+}

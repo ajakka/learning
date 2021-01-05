@@ -1,0 +1,193 @@
+/* general */
+body { 
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* logo */
+.logo {
+	width: 200px;
+	padding: 8px;
+}
+
+/* header */
+header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #034865;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #023043;
+}
+
+/* question */
+.question {
+  padding: 4px 4px 8px 4px;
+	margin-top: 16px;
+	margin-left: auto;
+  margin-right: auto;
+  width: 90% ; 
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 4px;
+}
+
+.qs_titre{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 16px 4px 12px 16px;
+}
+
+.qs_body{
+  background-color: #eceaff;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-left: 5px solid #034865;
+  padding: 8px 8px 8px 8px;
+}
+
+.qs_author {
+  align-items: center;
+  display: flex;
+  margin: 4px 4px 4px 16px;
+}
+
+.auth_image {
+  border-radius: 50%;
+  width: 40px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.auth_detail {
+  margin-left: 12px;
+}
+
+.auth_name {
+  margin: 0 0 0 0; font-weight: bold;
+}
+
+.auth_date {
+  margin: 0 0 0 0; font-size: x-small;
+}
+
+.qs_text {
+  margin: 4px 4px 8px 16px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+/* comment */
+.com_comment{
+  background-color: #f7f6fe;
+  margin: 6px 0px 0px 21px;
+  border-left: 5px solid #034865;
+  padding: 8px 8px 8px 8px;
+}
+
+.qs_comments{
+  font-size: large;
+  font-weight: bold;
+}
+
+.com_name{
+  margin: 8px 8px 8px 8px;
+  color: #08004d;
+}
+
+.com_date{
+  margin: 8px 8px 8px 8px;
+  color: #08004d;
+}
+
+.com_body{
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 0%;
+  padding: 0;
+  color: #08004d;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #034865;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+}
+
+/* forum */
+#comment_form input, #comment_form textarea {
+	border: 4px solid rgba(0,0,0,0.1);
+	padding: 8px 10px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  outline: 0;
+  font-size: medium;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#comment_form textarea {
+  width: 80%;
+}
+
+#comment_form input[type="submit"] {
+  cursor: pointer;
+  font-size: medium;
+	background: -webkit-linear-gradient(top, #efefef, #ddd);
+	background: -moz-linear-gradient(top, #efefef, #ddd);
+	background: -ms-linear-gradient(top, #efefef, #ddd);
+	background: -o-linear-gradient(top, #efefef, #ddd);
+	background: linear-gradient(top, #efefef, #ddd);
+	color: #333;
+	text-shadow: 0px 1px 1px rgba(255,255,255,1);
+	border: 1px solid #ccc;
+}
+
+#comment_form input[type="submit"]:hover {
+	background: -webkit-linear-gradient(top, #eee, #ccc);
+	background: -moz-linear-gradient(top, #eee, #ccc);
+	background: -ms-linear-gradient(top, #eee, #ccc);
+	background: -o-linear-gradient(top, #eee, #ccc);
+	background: linear-gradient(top, #eee, #ccc);
+	border: 1px solid #bbb;
+}
+
+#comment_form input[type="submit"]:active {
+	background: -webkit-linear-gradient(top, #ddd, #aaa);
+	background: -moz-linear-gradient(top, #ddd, #aaa);
+	background: -ms-linear-gradient(top, #ddd, #aaa);
+	background: -o-linear-gradient(top, #ddd, #aaa);
+	background: linear-gradient(top, #ddd, #aaa);	
+	border: 1px solid #999;
+}
+
+#comment_form div {
+  margin-bottom: 8px;
+}
+
+#comment_form div {
+  padding-left: 12px;
+}
