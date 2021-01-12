@@ -4,14 +4,14 @@
 
 ## Basic commands
 
-| Comand | Functionality | Comand | Functionality |
-|--------|-------------------|--------|--------------|
-| `cal`  | Display callendar | `date` | Display date |
-| `man`  | Display user manual | `pwd`  | Print working directory |
-| `cd /opt` | Change directory to /opt | `ls` | List files in current directory |
-| `exit` | End bash session  | `echo "Hello"` | Prints Hello to console |
-| `mkdir bin src` | Make bin and src directories | `cal` | Display callendar |
-
+| Comand                | Functionality                 | Comand            | Functionality                     |
+|-----------------------|-------------------------------|-------------------|-----------------------------------|
+| `cal`                 | Display callendar             | `date`            | Display date                      |
+| `man`                 | Display user manual           | `pwd`             | Print working directory           |
+| `cd /opt`             | Change directory to /opt      | `ls`              | List files in current directory   |
+| `exit`                | End bash session              | `echo "Hello"`    | Prints Hello to console           |
+| `mkdir bin src`       | Make bin and src directories  | `cal`             | Display callendar                 |
+| `lsb_release -cs`     | Shows Ubuntu distribution     | ``                |                                   |
 ## SSH Linux Instance
 
 `chmod 400 ~/.ssh/mykey.pem`
