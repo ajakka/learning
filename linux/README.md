@@ -11,7 +11,7 @@
 | `cd /opt`             | Change directory to /opt      | `ls`              | List files in current directory   |
 | `exit`                | End bash session              | `echo "Hello"`    | Prints Hello to console           |
 | `mkdir bin src`       | Make bin and src directories  | `cal`             | Display callendar                 |
-| `lsb_release -cs`     | Shows Ubuntu distribution     | ``                |                                   |
+| `lsb_release -cs`     | Shows Ubuntu distribution     | `w`               | Shows who is logged in            |
 ## SSH Linux Instance
 
 `chmod 400 ~/.ssh/mykey.pem`
