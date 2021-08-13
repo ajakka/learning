@@ -22,3 +22,4 @@ React is a Component-Based JavaScript library for building User Interfaces devel
 [react-redux](https://www.npmjs.com/package/react-redux)  
 [react-router-dom](https://www.npmjs.com/package/react-router-dom)  
 [react-scripts](https://www.npmjs.com/package/react-scripts)  
+[moment](https://www.npmjs.com/package/moment)
