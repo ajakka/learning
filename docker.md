@@ -1,21 +1,27 @@
 # All I know about Docker
 
 ## Instalation for windows
+
 1. [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
 2. [Docker](https://www.docker.com/get-started)
 
 ## VMs vs Containers
-![Comparison between VMs and Containers](./img/vmvscn.png)
+
+![Comparison between VMs and Containers](./images/vmvscn.png)
 [Image Source](https://www.nakivo.com/blog/docker-vs-kubernetes/)
 
 ## Docker commands
+
 `docker ps` : List of running containers
 
 ## Docker file
+
 ## Images
+
 ## Containers
 
 ## Magento on docker
+
 Betnami magento image: https://hub.docker.com/r/bitnami/magento/
 
 01.install WSL https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
@@ -24,13 +30,13 @@ Betnami magento image: https://hub.docker.com/r/bitnami/magento/
 
 03.restart computer
 
-04.go to cmd 
-	then type:	wsl
-	then type:	sysctl -w vm.max_map_count=262144
+04.go to cmd
+then type: wsl
+then type: sysctl -w vm.max_map_count=262144
 
 05.go to a folder of choise and open a terminal
-	then type: curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-magento/master/docker-compose.yml > docker-compose.yml
-	then type: docker-compose up -d
+then type: curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-magento/master/docker-compose.yml > docker-compose.yml
+then type: docker-compose up -d
 
 06.wait until the setup finishes
 
@@ -39,13 +45,13 @@ Betnami magento image: https://hub.docker.com/r/bitnami/magento/
 08.add PHP_MEMORY_LIMIT=2048M inside environment section that's inside the magento section that's indside docker-compose.yml file
 
 09.type: sudo /opt/bitnami/magento/htdocs/bin/magento sampledata:deploy
-	inside cli of magento
+inside cli of magento
 
 10.type: sudo /opt/bitnami/magento/htdocs/bin/magento setup:upgrade
 
 OPTIONAL.inside the web server, install vim
-	type: sudo apt-get update
-	type: sudo apt-get install vim
+type: sudo apt-get update
+type: sudo apt-get install vim
 
 ## **Junk notes**
 
@@ -60,7 +66,7 @@ docker run -d --name mariadb \
  --net magento-tier \
  --volume mariadb_data:/bitnami \
  bitnami/mariadb:latest
- 
+
 docker volume create --name magento_data
 docker run -d --name magento -p 80:80 -p 443:443 \
  -e MAGENTO_DATABASE_USER=bn_magento \
@@ -69,8 +75,8 @@ docker run -d --name magento -p 80:80 -p 443:443 \
  --net magento-tier \
  --volume magento_data:/bitnami \
  bitnami/magento:latest
- 
- C:\Users\Abderrahim>wsl
+
+C:\Users\Abderrahim>wsl
 JW3:/mnt/host/c/Users/Abderrahim# sysctl -w vm.max_map_count=262144
 vm.max_map_count = 262144
 JW3:/mnt/host/c/Users/Abderrahim# php
