@@ -9,9 +9,9 @@ A resume of all I learned about Jetpack Compose from [Mitch](https://www.youtube
 A row is used to structure it's children horizontally
 
 ```kotlin
-	Row() {
-		// ... children here
-	}
+Row() {
+	// ... children here
+}
 ```
 
 ### Column
@@ -19,9 +19,9 @@ A row is used to structure it's children horizontally
 A column is used to structure it's children vertically
 
 ```kotlin
-	Column() {
-		// ... children here
-	}
+Column() {
+	// ... children here
+}
 ```
 
 ## Modifiers
@@ -29,17 +29,17 @@ A column is used to structure it's children vertically
 ### Circular rounded corners modifier
 
 ```kotlin
-	Image(painter = painterResource(id = R.drawable.burger),
-				contentDescription = "Burger",
-				modifier = Modifier.clip(CircleShape))
+Image(painter = painterResource(id = R.drawable.burger),
+			contentDescription = "Burger",
+			modifier = Modifier.clip(CircleShape))
 ```
 
 ### Normal rounded corners modifier
 
 ```kotlin
-	Image(painter = painterResource(id = R.drawable.burger),
-				contentDescription = "Burger",
-				modifier = Modifier.clip(RoundedCornerShape(8.dp)))
+Image(painter = painterResource(id = R.drawable.burger),
+			contentDescription = "Burger",
+			modifier = Modifier.clip(RoundedCornerShape(8.dp)))
 ```
 
 ```kotlin
