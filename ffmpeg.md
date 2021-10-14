@@ -14,3 +14,7 @@ Use this command to splite an audio
 
 `-ss 10`  means where to start  
 `-t 40`   means how much seconds ahead  
+
+
+### Batch convert PNGs to JPGs    
+`for i in *.png; do sips -s format jpeg $i --out $i.jpg;done`
