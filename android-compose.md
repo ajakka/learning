@@ -24,22 +24,30 @@ Column() {
 }
 ```
 
+### Spacer
+
+A spacer is a transparent view that works a separator between the views
+
+```kotlin
+Spacer(modifier = Modifier.width(8.dp))
+```
+
 ## Modifiers
 
 ### Circular rounded corners modifier
 
 ```kotlin
 Image(painter = painterResource(id = R.drawable.burger),
-			contentDescription = "Burger",
-			modifier = Modifier.clip(CircleShape))
+	contentDescription = "Burger",
+	modifier = Modifier.clip(CircleShape))
 ```
 
 ### Normal rounded corners modifier
 
 ```kotlin
 Image(painter = painterResource(id = R.drawable.burger),
-			contentDescription = "Burger",
-			modifier = Modifier.clip(RoundedCornerShape(8.dp)))
+	contentDescription = "Burger",
+	modifier = Modifier.clip(RoundedCornerShape(8.dp)))
 ```
 
 ```kotlin
