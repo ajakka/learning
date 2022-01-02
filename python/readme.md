@@ -136,9 +136,6 @@ multi_str.format_map(    multi_str.isprintable(   multi_str.removeprefix(  multi
 | <         | Smaller than          |         |
 | >=        | Biger than or equal   |         |
 | <=        | Smaller than or equal |         |
-|           |                       |         |
-|           |                       |         |
-|           |                       |         |
 
 ```python
 # Boolean declaration
