@@ -15,6 +15,9 @@ Use this command to splite an audio
 `-ss 10`  means where to start  
 `-t 40`   means how much seconds ahead  
 
+### Compress a video with HEVC ([ffmpeg](https://ffmpeg.org/))
+
+`sudo ffmpeg -i input.mp4 -vcodec libx265 -crf 20 output.mp4`
 
 ### Batch convert PNGs to JPGs (sips)
 
