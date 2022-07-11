@@ -123,6 +123,10 @@ In linux, everything is a file.
 
 `/var` This is an older convention, it's called variable directory and is used to contain directories that are expected to grow, like logs, databases, etc..
 
+## Fix archlinux not reading ntfs drives
+
+`sudo pacman -S ntfs-3g`
+
 ## Misc
 
 `$ ls -la`
