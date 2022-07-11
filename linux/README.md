@@ -127,13 +127,15 @@ In linux, everything is a file.
 
 `sudo pacman -S ntfs-3g`
 
-## GNOME GDM Fails to startup on Nvidia GPU ([Details](https://wiki.archlinux.org/title/NVIDIA#Early_loading))
+## GNOME GDM Fails to startup on Nvidia (and AMD) GPU  ([Details] (https://wiki.archlinux.org/title/NVIDIA#Early_loading))
 
 `sudo nano /etc/mkinitcpio.conf`
 
 `MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)`
 
+For AMD GPUs
 
+`MODULES=(amdgpu)`
 
 ## Misc
 
